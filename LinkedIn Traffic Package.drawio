@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T05:50:23.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="OJZMWlu3isKJxUk9JaJg" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T12:45:28.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="iEdq4pYjoCotNpGaUMSM" version="18.0.2" type="github">
   <diagram id="2nafvPesXBV369Mlgwu8" name="Page-1">
-    <mxGraphModel dx="2370" dy="2924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="2380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
           <mxGeometry x="60" y="100" width="210" height="177.5" as="geometry" />
         </mxCell>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-6" value="&amp;lt;&amp;lt;media&amp;gt;&amp;gt;&lt;br&gt;LinkedIn" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1594" y="770" width="160" height="230" as="geometry" />
+          <mxGeometry x="1587" y="720" width="160" height="230" as="geometry" />
         </mxCell>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-7" value="S3 bucket" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.aws_s3;" parent="1" vertex="1">
           <mxGeometry x="250" y="510.5" width="34" height="34" as="geometry" />
@@ -112,18 +112,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rJLXyOpNKVKNRPo0n4hy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="rJLXyOpNKVKNRPo0n4hy-6" edge="1">
+        <mxCell id="rJLXyOpNKVKNRPo0n4hy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rJLXyOpNKVKNRPo0n4hy-6" edge="1" source="rJLXyOpNKVKNRPo0n4hy-65">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1470" y="879" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1540" y="879" />
-              <mxPoint x="1540" y="879" />
-            </Array>
+            <mxPoint x="1530" y="840" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rJLXyOpNKVKNRPo0n4hy-26" value="1.14 Create Campaign, Ads and Audience&lt;br&gt;&amp;lt;&amp;lt;API&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rJLXyOpNKVKNRPo0n4hy-25" vertex="1" connectable="0">
+        <mxCell id="rJLXyOpNKVKNRPo0n4hy-26" value="1.14 Get Campaaign group info&lt;br&gt;&amp;lt;&amp;lt;API&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rJLXyOpNKVKNRPo0n4hy-25" vertex="1" connectable="0">
           <mxGeometry x="-0.3416" y="2" relative="1" as="geometry">
-            <mxPoint x="403" y="-9" as="offset" />
+            <mxPoint x="-175" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-27" value="Save Campaign, Asset Status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="rJLXyOpNKVKNRPo0n4hy-28" target="rJLXyOpNKVKNRPo0n4hy-52" edge="1">
@@ -140,7 +138,7 @@
         </mxCell>
         <UserObject label="LinkedIn API" link="https://ads.google.com/intl/en_IN/home/" id="rJLXyOpNKVKNRPo0n4hy-29">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000EE;fontStyle=4;" parent="1" vertex="1">
-            <mxGeometry x="1794.5" y="940" width="120" height="60" as="geometry" />
+            <mxGeometry x="1610" y="805" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-30" value="&lt;font color=&quot;#ff0000&quot;&gt;PackageNotification queue&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
@@ -223,9 +221,8 @@
             <mxPoint x="640" y="910" as="sourcePoint" />
             <mxPoint x="1110" y="-205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="860" />
-              <mxPoint x="590" y="1030" />
-              <mxPoint x="590" y="1190" />
+              <mxPoint x="570" y="870" />
+              <mxPoint x="570" y="1190" />
               <mxPoint x="1000" y="1190" />
               <mxPoint x="1389" y="1190" />
               <mxPoint x="1389" y="400" />
@@ -321,6 +318,34 @@
         <mxCell id="iOcRhtn1Pvj0uM8DEcyP-7" value="If invalid package URL, send back to CHB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="iOcRhtn1Pvj0uM8DEcyP-3">
           <mxGeometry x="-0.2099" y="-1" relative="1" as="geometry">
             <mxPoint x="-9" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOcRhtn1Pvj0uM8DEcyP-8" value="&lt;font color=&quot;#ff0000&quot;&gt;CreateCampaign Function&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1060" width="49" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iOcRhtn1Pvj0uM8DEcyP-9" value="&lt;font color=&quot;#ff0000&quot;&gt;CreateCampaign&amp;nbsp;queue&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="940" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iOcRhtn1Pvj0uM8DEcyP-10" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Enqueue package info&lt;br&gt;LinkedIn access token &amp;amp;&lt;br&gt;Campaign Group&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0536" y="70" relative="1" as="geometry">
+            <mxPoint x="664.02" y="860" as="sourcePoint" />
+            <mxPoint x="664" y="940" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOcRhtn1Pvj0uM8DEcyP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iOcRhtn1Pvj0uM8DEcyP-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1084.57" as="sourcePoint" />
+            <mxPoint x="610" y="1084.57" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="1085" />
+              <mxPoint x="665" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iOcRhtn1Pvj0uM8DEcyP-12" value="1.11 Create campaign queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iOcRhtn1Pvj0uM8DEcyP-11">
+          <mxGeometry x="-0.1351" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-36" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
