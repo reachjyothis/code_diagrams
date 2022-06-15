@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:01:58.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-WSKNsvDWLGtLkq20Sey" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:18:06.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="vBaEpsW1YRH86NYRpLjQ" version="20.0.1" type="github">
   <diagram id="2nafvPesXBV369Mlgwu8" name="Page-1">
-    <mxGraphModel dx="2031" dy="2743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="2416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-35" value="&lt;font color=&quot;#ff0000&quot;&gt;CloudWatch&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1330" width="60" height="50" as="geometry" />
+          <mxGeometry x="500" y="1490" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rJLXyOpNKVKNRPo0n4hy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="rJLXyOpNKVKNRPo0n4hy-39" target="rJLXyOpNKVKNRPo0n4hy-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -337,10 +337,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-22" value="LN API to create campaign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0mPdFPJ8UgySxpzReuJT-2">
+          <mxGeometry x="-0.5867" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0mPdFPJ8UgySxpzReuJT-3" value="&lt;font color=&quot;#ff0000&quot;&gt;Register Image queue&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="644.5" y="1390" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0mPdFPJ8UgySxpzReuJT-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Enqueue message &lt;br&gt;for image register&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" source="iOcRhtn1Pvj0uM8DEcyP-8" target="0mPdFPJ8UgySxpzReuJT-3" edge="1">
+        <mxCell id="0mPdFPJ8UgySxpzReuJT-4" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Enqueue message &lt;br&gt;for image register with campaign ID&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" parent="1" source="iOcRhtn1Pvj0uM8DEcyP-8" target="0mPdFPJ8UgySxpzReuJT-3" edge="1">
           <mxGeometry x="0.1304" y="25" relative="1" as="geometry">
             <mxPoint x="840" y="1080" as="sourcePoint" />
             <mxPoint x="840.48" y="1260" as="targetPoint" />
@@ -354,6 +359,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-27" value="Register image to &lt;br&gt;the organization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0mPdFPJ8UgySxpzReuJT-5">
+          <mxGeometry x="-0.1732" relative="1" as="geometry">
+            <mxPoint x="26" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0mPdFPJ8UgySxpzReuJT-6" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;entryX=0.667;entryY=0.917;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="0mPdFPJ8UgySxpzReuJT-1" target="rJLXyOpNKVKNRPo0n4hy-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1019" y="1071.02" as="sourcePoint" />
@@ -364,10 +374,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-23" value="LN API to register image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0mPdFPJ8UgySxpzReuJT-6">
+          <mxGeometry x="-0.6943" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0mPdFPJ8UgySxpzReuJT-7" value="&lt;font color=&quot;#ff0000&quot;&gt;Upload Image queue&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1390" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0mPdFPJ8UgySxpzReuJT-8" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Enqueue message &lt;br&gt;with image upload URL&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mPdFPJ8UgySxpzReuJT-1" target="0mPdFPJ8UgySxpzReuJT-7" edge="1">
+        <mxCell id="0mPdFPJ8UgySxpzReuJT-8" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Enqueue message&amp;nbsp;with &lt;br&gt;image upload URL &amp;amp; Asset&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0mPdFPJ8UgySxpzReuJT-1" target="0mPdFPJ8UgySxpzReuJT-7" edge="1">
           <mxGeometry x="0.0643" y="25" relative="1" as="geometry">
             <mxPoint x="984" y="1030" as="sourcePoint" />
             <mxPoint x="984" y="950" as="targetPoint" />
@@ -417,7 +432,7 @@
           <mxGeometry x="1180" y="930" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-9" value="&lt;font color=&quot;#ff0000&quot;&gt;Share Image queue&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="1140" width="40" height="50" as="geometry" />
+          <mxGeometry x="1030" y="1140" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-10" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0mPdFPJ8UgySxpzReuJT-7" target="P_MQMm48tsE6kodi8rJG-5">
           <mxGeometry x="-0.0997" y="15" relative="1" as="geometry">
@@ -439,10 +454,16 @@
             <mxPoint x="1327.25" y="1290" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1255" y="1300" />
-              <mxPoint x="1110" y="1300" />
-              <mxPoint x="970" y="1300" />
+              <mxPoint x="1255" y="1280" />
+              <mxPoint x="1180" y="1280" />
+              <mxPoint x="1050" y="1280" />
+              <mxPoint x="1050" y="1260" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-30" value="Enqueue share image request&lt;br&gt;with asset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-12">
+          <mxGeometry x="-0.1407" relative="1" as="geometry">
+            <mxPoint x="-11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-13" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P_MQMm48tsE6kodi8rJG-5" target="rJLXyOpNKVKNRPo0n4hy-29">
@@ -455,6 +476,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-24" value="LN API to upload image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-13">
+          <mxGeometry x="-0.8382" y="-2" relative="1" as="geometry">
+            <mxPoint x="181" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-14" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_MQMm48tsE6kodi8rJG-6" target="rJLXyOpNKVKNRPo0n4hy-29">
           <mxGeometry x="-0.0997" y="15" relative="1" as="geometry">
             <mxPoint x="1288.9999999999995" y="1425.0000000000005" as="sourcePoint" />
@@ -465,10 +491,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-25" value="LN API to share image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-14">
+          <mxGeometry x="-0.8325" y="1" relative="1" as="geometry">
+            <mxPoint x="22" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P_MQMm48tsE6kodi8rJG-6" target="P_MQMm48tsE6kodi8rJG-8">
           <mxGeometry x="-0.0997" y="15" relative="1" as="geometry">
             <mxPoint x="1000" y="1175.0000000000005" as="sourcePoint" />
             <mxPoint x="1190" y="1175.0000000000005" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-31" value="Enqueue ad creation request&lt;br&gt;with share ID and campaign ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-15">
+          <mxGeometry x="0.1375" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -486,6 +522,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-26" value="LN API to create ad" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-17">
+          <mxGeometry x="-0.6818" relative="1" as="geometry">
+            <mxPoint x="14" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rJLXyOpNKVKNRPo0n4hy-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="970" y="890" as="sourcePoint" />
@@ -498,10 +539,25 @@
             <mxPoint x="1200.9999999999995" y="1105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P_MQMm48tsE6kodi8rJG-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="P_MQMm48tsE6kodi8rJG-5">
+        <mxCell id="P_MQMm48tsE6kodi8rJG-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="P_MQMm48tsE6kodi8rJG-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="1310" as="sourcePoint" />
             <mxPoint x="1210.9999999999995" y="1115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-28" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=0;strokeColor=#1A1A1A;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P_MQMm48tsE6kodi8rJG-5" target="rJLXyOpNKVKNRPo0n4hy-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691.895" y="1227.25" as="sourcePoint" />
+            <mxPoint x="877.5" y="845" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="1300" />
+              <mxPoint x="840" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_MQMm48tsE6kodi8rJG-29" value="Get asset image to upload&lt;br&gt;and customization json data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=35;" vertex="1" connectable="0" parent="P_MQMm48tsE6kodi8rJG-28">
+          <mxGeometry x="0.6725" relative="1" as="geometry">
+            <mxPoint x="100" y="274" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
