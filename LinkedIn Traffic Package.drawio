@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T08:16:21.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="U1fqOb2IH8J3UqNbcuj-" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T08:25:31.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="a2ScIENBFLUqxLTxPQin" version="20.1.4" type="github">
   <diagram id="2nafvPesXBV369Mlgwu8" name="Page-1">
-    <mxGraphModel dx="2578" dy="3039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="2456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,7 +347,7 @@
         </mxCell>
         <mxCell id="P_MQMm48tsE6kodi8rJG-27" value="Register image/media to &lt;br&gt;the organization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0mPdFPJ8UgySxpzReuJT-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1732" relative="1" as="geometry">
-            <mxPoint x="26" y="-17" as="offset" />
+            <mxPoint x="9" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0mPdFPJ8UgySxpzReuJT-6" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0mPdFPJ8UgySxpzReuJT-1" edge="1">
